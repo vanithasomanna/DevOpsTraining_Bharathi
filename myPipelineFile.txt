@@ -1,0 +1,9 @@
+node{
+	stage("build"){
+        	git'https://github.com/vanithasomanna/DevOpsTraining_Bharathi.git'
+		echo "in build stage"
+	}
+	stage("deploy"){
+		echo "in deploy stage"
+	}
+}
